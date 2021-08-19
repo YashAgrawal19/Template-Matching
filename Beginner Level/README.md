@@ -1,5 +1,5 @@
 
-ABOUT THIS FOLDER
+# ABOUT THIS FOLDER
 
 The feature_orb_main.py is the main file which we have to run for the output.
 
@@ -12,16 +12,16 @@ image folder contain the images used in the files. All the names of the images a
 template_image.png is the template image and test_image.png is the test_image
 
 
-HOW TO COMPILE
+# HOW TO COMPILE
 
 RUN python feature_orb_main.py
 
-OUTPUT
+# OUTPUT
 
 output of the image is present in the output folder with the name resulted_image.png
 
 
-WHY USED THIS TECHNIQUE
+# WHY USED THIS TECHNIQUE
 
 This orb detector has been used because it is fast and also flann matcher is used as in this level the all the image is of same type as there is no tiltes of other
 object are present in the test_image therefor the computation time as well as the accuracy will increase when using flann matcher with orb detector rather than any other detector.
