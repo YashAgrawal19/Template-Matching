@@ -1,15 +1,25 @@
 
-HOW TO COMPILE
+ABOUT THIS FOLDER
 
 The feature_orb_main.py is the main file which we have to run for the output.
 
-feature_orb is the supporting file which contain a fuction for detecting the template image in the test_image.
+feature_orb.py is the supporting file which contain a fuction for detecting the template image in the test_image.
 This fuction return the coordinate point of portion of the test_image which matches with the template image along with a 
 boolean value for representing that the template image is present in the test_image
 
+image folder contain the images used in the files. All the names of the images are given in the file itself so no need to pass any argument while compiling
+
+template_image.png is the template image and test_image.png is the test_image
+
+
+HOW TO COMPILE
+
+RUN python feature_orb_main.py
+
 OUTPUT
 
-output of the image is present in the output folder 
+output of the image is present in the output folder with the name resulted_image.png
+
 
 WHY USED THIS TECHNIQUE
 
