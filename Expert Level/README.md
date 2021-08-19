@@ -35,7 +35,9 @@ While runnig the sift_expert.py file the output will be sift_expert_result.png i
 
 
 
+WHY USED THIS TECHNIQUE
 
+This sift detector has been used with flann matcher as in this level the image is not straight as well as not of the same size as well as there are many other objects are present.
 
 
 
