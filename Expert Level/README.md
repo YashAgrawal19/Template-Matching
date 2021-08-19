@@ -1,5 +1,5 @@
 
-ABOUT THE FOLDER
+# ABOUT THE FOLDER
 
 The sift.py and sift_expert.py are 2 main files with 2 techniques here the technique is same just change the 1 parameter for different results
 
@@ -12,7 +12,7 @@ As we have multiple template images therefor I have used os library to read all 
 
 
 
-HOW TO COMPILE
+# HOW TO COMPILE
 
 
 RUN python sift.py
@@ -27,7 +27,7 @@ Here the MIN_MATCH_COUNT parameter value is kept at 25
 
 
 
-OUTPUT
+# OUTPUT
 
 While runnig the sift.py file the output will be sift_result.png in the output folder
 
@@ -35,7 +35,7 @@ While runnig the sift_expert.py file the output will be sift_expert_result.png i
 
 
 
-WHY USED THIS TECHNIQUE
+# WHY USED THIS TECHNIQUE
 
 This sift detector has been used with flann matcher as in this level the image is not straight as well as not of the same size as well as there are many other objects are present.
 
