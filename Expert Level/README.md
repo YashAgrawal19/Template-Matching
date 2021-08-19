@@ -9,7 +9,11 @@ image folder contain the images used in the files. All the names of the images a
 
 As we have multiple template images therefor I have used os library to read all the images present in the images/templates/ folder 
 
+
+
+
 HOW TO COMPILE
+
 
 RUN python sift.py
 
@@ -18,6 +22,9 @@ here we need to change MIN_MATCH_COUNT  parameter to 20 which is present on the 
 RUN python sift_expert.py
 
 Here the MIN_MATCH_COUNT parameter value is kept at 25 
+
+
+
 
 
 OUTPUT
