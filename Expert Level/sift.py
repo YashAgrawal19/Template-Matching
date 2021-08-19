@@ -1,7 +1,7 @@
 import sys # For debugging only
 import numpy as np
 import cv2
-from shift_feature import get_corrected
+from sift_feature import get_corrected
 #from matplotlib import pyplot as plt
 
 
@@ -36,7 +36,7 @@ while default:
 	if cv2.waitKey(1) == ord('q'):
             		break
 
-cv2.imwrite("expert_level_result.png",target)
+cv2.imwrite("sift_result.png",target)
 cv2.waitKey(0)
 
 
