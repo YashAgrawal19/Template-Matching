@@ -2,7 +2,7 @@ import sys # For debugging only
 import numpy as np
 import cv2
 import os
-from shift_feature import get_corrected
+from sift_feature import get_corrected
 #from matplotlib import pyplot as plt
 
 
@@ -40,6 +40,6 @@ for name in file_name:
 		    		break
 
 
-cv2.imwrite("expert2.png",target)
+cv2.imwrite("sift_expert_result.png",target)
 cv2.waitKey(0)
 
