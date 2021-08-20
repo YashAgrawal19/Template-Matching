@@ -56,6 +56,6 @@ def get_corrected_img(img_parle,orb,kp1,des1, img_frame):
                     matchesMask = matchesMask, # draw only inliers
                     flags = 2)
 	img_feature = cv2.drawMatches(img_parle,kp1,img_frame,kp2,good_matches,None,**draw_params)
-	cv2.imshow("img_feature",img_feature)
+	#cv2.imshow("img_feature",img_feature)
 	return [coordinate], default
 
